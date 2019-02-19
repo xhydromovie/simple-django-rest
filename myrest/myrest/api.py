@@ -1,5 +1,5 @@
 from rest_framework import routers
-from myrest import views as myapp_views
+from rental import api_views as myapp_views
 
 router = routers.DefaultRouter()
 router.register(r'friends', myapp_views.FriendViewset)
